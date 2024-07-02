@@ -58,7 +58,7 @@ opts.lambda = lambda;
 
 % Run LTNN
 tic;
-[Xhat, conv_out] = latentTNN(XoNoise, omegaIndex, X, opts);
+Xhat = latentTNN(XoNoise, omegaIndex, opts);
 e_time = toc;
 
 % Evaluate results
