@@ -8,7 +8,7 @@ dataName = {'greek','boxes','dishes','kitchen','museum','tower','table','platoni
 imNo = input('Select dataset (1-8): ');
 
 % Set parameters
-SR = input('Input sampling rate (e.g. 0.1): ');
+SR = 0.05;
 c  = 0;
 lambda = 250;
 
