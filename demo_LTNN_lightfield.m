@@ -10,6 +10,7 @@ imNo = input('Select dataset (1-8): ');
 % Set parameters
 SR = 0.05;
 c  = 0;
+% adjust the hyper parameter lambda to get the best performance
 lambda = 250;
 
 

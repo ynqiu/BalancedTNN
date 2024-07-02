@@ -10,6 +10,7 @@ imNo = input('Select dataset (1-4): ');
 % Set parameters
 SR = 0.2;  
 c = 0.05;
+% adjust the hyper parameter lambda to get the best performance
 lambda = 500;
 
 rng(2020, 'twister');
